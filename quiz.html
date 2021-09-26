@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<link rel="stylesheet" href="/style.css">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,14 +9,35 @@
 </head>
 
 <body>
+    <nav class="navigation">
+        <div class="container-fluid">
+            <div class="brand"> Fun With Triangles</div>
+            <ul class="list-non-bullet nav-align">
+                <li class="inline">
+                    <a href="/hypotenuse.html" class="link active">Hypotenuse</a>
+                </li>
+                <li class="inline"> 
+                    <a class="link" href="/isTriangle.html">Is it Triangle?</a>
+                </li>
+                <li class="inline">
+                    <a class="link" href="/quiz.html">Quiz</a>
+                </li>
+                <li class="inline">
+                    <a href="/areaOfTriangle.html" class="link">Area Of Triangle</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
     <form class="quiz-form">
-        <div class="container">
+        <div class="quiz-container">
+            <h1> Quiz</h1>
             <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
             <label> <input type="radio" name="questionOne" value="45°">45°</label>
             <label> <input type="radio" name="questionOne" value="90°">90°</label>
             <label> <input type="radio" name="questionOne" value="60°">60°</label>
         </div>
-        <div class="container">
+        <div class="quiz-container">
             <p>If a triangle has an angle of 90 degrees, what is it called?</p>
             <label> <input type="radio" name="questionTwo" value="Obtuse">Obtuse</label>
             <label> <input type="radio" name="questionTwo" value="Acute">Acute</label>

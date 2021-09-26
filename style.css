@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
+
+:root{
+    --primary-color : 
+    #6366F1 ;
+}
+
+
+.link{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    
+}
+             
+
+.inline{
+    display: inline;
+    padding-inline: 0rem 0.5rem;
+    padding-left: 2rem;
+    
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    border-end-end-radius: 1rem;
+    color: white;
+    padding: 1rem;
+    
+}
+
+.navigation .brand{
+    font-weight: bold;
+    font-family: "Megrim", cursive;
+    text-align: initial;
+    font-size: 2em;
+    
+}
+
+.navigation .link{
+    color: white;
+
+}
+
+.nav-align{
+    text-align: right;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    min-width: 98vw;
+}
+
+.container{
+    margin: 2rem auto 7rem;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font: large;
+    font-weight: 600;
+}
+
+.t-base, .t-height,  .sides{
+
+    font-size: 14px;
+    outline: #ffff;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+    width: 100%;
+    max-width: 258px;
+}
+
+.btn-check, .btn-submit{
+    background-color: var(--primary-color);
+    border: none;
+    color: #ffff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #ffff;
+    margin: auto;
+    display: block;
+}
+
+.output{
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.quiz-container{
+    margin: 2rem;
+    text-align: center;
+}
+
+.quiz-header{
+    text-align: center;
+}
