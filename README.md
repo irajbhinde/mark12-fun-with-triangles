@@ -1,18 +1,21 @@
-# build-palindrome-birthdays
-### mark13. Tell your friends if their birthdates are palindrome.
-App which checks whether your birthday is a palindrome birthday & if not let's you the nearest palindrome date with how many days you have missed
+# build-learn-triangles
+### mark12. Do you know your triangles quiz.
+A website which helps you to learn about triangles, contains quizzes & calculators.
 <br/>
 
 # Youtube Lesson
-[Link](https://youtu.be/8rqZ524NzaQ)
+[Link](https://youtu.be/xOaKv-6bJwE)
 
 # Problem Statement
-#### [**basics buildFour**](https://github.com/neogcamp/build/blob/main/basics/palindrome-birthdays.md)
+#### [**basics buildThree**](https://github.com/neogcamp/build/blob/main/basics/learn-triangles.md)
 
 # How to use:
- - Enter your birth date & click on **Enter**
- - Output will be shown below the button after its calculated.
- - You can also click on **Reset Icon** & reset your birthdate
+ - Click on section you want to open.
+    - Play Quiz: Select answers and click on submit to check the score
+    - Angles of Triangle: Enter values in input fields and click on submit to check results.
+    - Check Hypotenuse: Enter values in input fields and click on submit to check results.
+    - Calculate Area: Enter values in input fields and click on submit to check results.
+
 
 # Programming Language:
  - html
